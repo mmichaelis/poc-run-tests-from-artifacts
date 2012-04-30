@@ -42,7 +42,7 @@ This issue is reported as [SUREFIRE-569][] and is unresolved since 2009. So it i
 ### Extract Using Dependency Plugin
 
 A suggested solution in the comments to [SUREFIRE-569][] is to use the dependency plugin and extract the test sources
-to the pass {{target/test-classes}}.
+to the path `target/test-classes`.
 
 **Drawback:** You have to fiddle around with the build process.
 
